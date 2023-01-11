@@ -155,7 +155,7 @@ fn create_fake_swiss_navs13() -> Nav13{
 #[command(group(
 ArgGroup::new("validate")
 .args(["navs13"])
-.conflicts_with_all(["create","number","init"]),
+.conflicts_with_all(["create","number"]),
 ))]
 struct Cli {
     #[arg(help = "NAVS13 to validate.\nNote that only the structure is validated. This is not enough to make it effective.\nExample: 756.1234.5678.97")]
