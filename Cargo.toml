@@ -1,0 +1,11 @@
+[package]
+name = "avs_cli"
+description = "A Swiss AVS 13 generator and validator."
+license = "BSD-3-Clause"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+clap = { version = "^4.0", features = ["derive","cargo"] }
+rand="^0.8"
