@@ -1,8 +1,8 @@
 [package]
 name = "avs_cli"
-description = "A Swiss AVS 13 generator and validator."
+description = "A Swiss OASI AHV AVS 13 generator and validator."
 license = "BSD-3-Clause"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 publish = false
 

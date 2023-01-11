@@ -1,7 +1,7 @@
 # avs_cli
-A Swiss AVS 13 generator and validator.
+A Swiss OASI AHV AVS 13 generator and validator.
 
-Command line app. to generate and validate a swiss navs13.
+Command line app. to generate and validate a swiss social number.
 This utility is for testing purposes, only the structure is validated which does not mean
 that the number is administratively valid.
 [navs13](https://www.zas.admin.ch/zas/fr/home/partenaires-et-institutions-/navs13.html)
@@ -21,6 +21,14 @@ cargo build release
 ```
 
 for binaries see release
+
+### cross compile
+
+[see](https://github.com/cross-rs/cross) 
+
+`cross build --release --target x86_64-pc-windows-gnu`
+
+`cross build --release --target aarch64-unknown-linux-gnu`
 
 ## Howto
 
